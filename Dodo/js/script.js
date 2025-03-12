@@ -12,8 +12,8 @@ canvas.style.height = "500px"; // Escala visual
 
 // Lista de imagens para a animação
 const frames = [
-    "../images/face_1.png",
-    "../images/face_2.png",
+    "../images/Face_1.png",
+    "../images/Face_2.png",
     "../images/face_3.png"
 ];
 
@@ -24,9 +24,9 @@ let currentTextIndex = 0;
 
 // Lista de textos para serem exibidos
 const texts = [
-    "Hello word.",
-    "Vai santos",
-    ":)"
+    "Olá Isadora",
+    "Vai santoswevwwfwrwer",
+    ":8)"
 ];
 
 // Pré-carrega as imagens
@@ -72,7 +72,7 @@ function typeText(text, speed = 50) {
     function type() {
         if (index < text.length) {
             dialogText.innerHTML += text[index];
-            if (text[index] !== " ") blipSound.play(); // Som para cada letra (ignora espaços)
+            if (text[index] !== "") blipSound.play(); // Som para cada letra (ignora espaços)
             index++;
             setTimeout(type, speed);
         } else {

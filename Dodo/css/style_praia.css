@@ -1,0 +1,6 @@
+body{
+    background-image: url(../images/New\ Piskel-2.png.png);
+    background-size: cover; /* Ajusta para cobrir toda a tela */
+    background-position: center; /* Centraliza a imagem */
+    background-repeat: no-repeat; /* Evita repetições */
+}
