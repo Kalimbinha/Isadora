@@ -1,0 +1,33 @@
+body {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    flex-direction: column; /* Empilha os elementos no eixo Y */
+}
+
+canvas {
+    image-rendering: pixelated;
+    max-width: 100%;
+    height: auto; /* Garante que o canvas não ultrapasse a largura da tela */
+}
+
+#dialog-box {
+    width: 80%;
+    max-width: 600px;
+    background: black;
+    color: white;
+    font-family: 'Courier New', monospace;
+    font-size: 20px;
+    border: 2px solid white;
+    padding: 10px;
+    margin-top: 20px;
+    text-align: left;
+    white-space: pre-line;
+    position: absolute;
+    bottom: 20px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.7);
+    max-width: 90%; /* Reduz a largura máxima em telas pequenas */
+}
